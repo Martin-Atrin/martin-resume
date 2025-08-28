@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin - Expert IT Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="header-actions">
+        <button id="downloadPdf" class="download-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download PDF
+        </button>
+    </div>
+    
+    <div class="resume-container" id="resume">
+        <header class="resume-header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <div class="avatar">M</div>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="name">Martin</h1>
+                        <p class="tagline">That cheeky Slovak guy</p>
+                        <p class="title">Expert IT Professional & Hands-on Founder</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                        <span>atrinmartin@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="10" r="3"></circle>
+                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"></path>
+                        </svg>
+                        <span>Currently in Southeast Asia</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        <span>github.com/Martin-Atrin</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="resume-body">
+            <aside class="sidebar">
+                <section class="skills-section">
+                    <h3 class="section-title">Core Expertise</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Strategic Thinking</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Communication Skills</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Analytical Skills</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Industry Knowledge</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills-section">
+                    <h3 class="section-title">Technical Skills</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Web3</span>
+                        <span class="tech-tag">AI Tools</span>
+                        <span class="tech-tag">E-commerce</span>
+                    </div>
+                </section>
+
+                <section class="skills-section">
+                    <h3 class="section-title">Languages</h3>
+                    <div class="language-list">
+                        <div class="language-item">
+                            <span>English</span>
+                            <span class="language-level">C1 (Advanced)</span>
+                        </div>
+                        <div class="language-item">
+                            <span>Slovak</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills-section">
+                    <h3 class="section-title">Education</h3>
+                    <div class="education-item">
+                        <h4>Specialized Diploma in Logistics</h4>
+                        <p class="education-school">Highschool of Transport</p>
+                        <p class="education-location">Zvolen, Slovakia</p>
+                        <p class="education-date">2008 - 2011</p>
+                    </div>
+                </section>
+            </aside>
+
+            <main class="main-content">
+                <section class="experience-section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="job-title">Founder & Tech Lead</h3>
+                                <p class="company">Polygonface Ltd.</p>
+                            </div>
+                            <span class="date-range">2022 - Present</span>
+                        </div>
+                        <p class="job-description">
+                            Leading innovative projects at the intersection of Web2 and Web3 technologies, focusing on community-driven platforms and AI-enhanced software development.
+                        </p>
+                        <ul class="job-details">
+                            <li>Architecting and deploying full-stack applications using modern frameworks (React, Node.js, Next.js, Typescript)</li>
+                            <li>Building decentralized applications and smart contracts for Web3 ecosystems</li>
+                            <li>Leveraging AI tools to accelerate development cycles and enhance code quality</li>
+                            <li>Growing and managing online communities</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="job-title">Hands-on Founder</h3>
+                                <p class="company">Vianio s.r.o. | E-commerce</p>
+                            </div>
+                            <span class="date-range">2016 - 2022</span>
+                        </div>
+                        <p class="job-description">
+                            Built and successfully sold an e-commerce business that captured significant market share in Slovakia's cosmetics and supplements sectors.
+                        </p>
+                        <ul class="job-details">
+                            <li>Developed custom e-commerce platform using PHP and SQL, handling thousands of transactions</li>
+                            <li>Led strategic planning and logistics optimization, reducing operational costs by 30%</li>
+                            <li>Managed team of 3 across software development, marketing, and operations</li>
+                            <li>Secured B2B partnerships with major retailers and grew B2C channel to €1M+ annual revenue</li>
+                            <li>Orchestrated successful business exit in 2022 with ongoing support for new ownership</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="job-title">Narrator / Moderator</h3>
+                                <p class="company">fART studio s.r.o. | TV Production</p>
+                            </div>
+                            <span class="date-range">2017 - 2020</span>
+                        </div>
+                        <ul class="job-details">
+                            <li>Commentated on 100+ hours of live poker tournaments for RebuyStars Slovakia</li>
+                            <li>Hosted TV shows for major poker festivals with live audience engagement</li>
+                            <li>Demonstrated quick thinking and professional presence in high-pressure live broadcasts</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="job-title">Director / Journalist / Reporter</h3>
+                                <p class="company">SpadepokerTV | Webshow Production</p>
+                            </div>
+                            <span class="date-range">2014 - 2017</span>
+                        </div>
+                        <ul class="job-details">
+                            <li>Directed and produced weekly web news show with 50,000+ viewers</li>
+                            <li>Wrote engaging content covering tournaments, player interviews, and educational material</li>
+                            <li>Built SpadepokerTV into Slovakia's premier poker content platform</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="job-title">Head of Poker Department</h3>
+                                <p class="company">Olympic Casinos Slovakia</p>
+                            </div>
+                            <span class="date-range">2012 - 2014</span>
+                        </div>
+                        <ul class="job-details">
+                            <li>Managed 8 floor managers and 50+ dealers across multiple locations</li>
+                            <li>Pioneered web-based live table preview system, first in Slovakia</li>
+                            <li>Increased player traffic by 40% through innovative marketing with zero budget</li>
+                            <li>Opened new premises and established strong player communities in new markets</li>
+                            <li>Delivered quarterly performance reports to corporate stakeholders</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="about-section">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-text">
+                        I'm a pragmatic problem solver who thrives at the intersection of technology and business. With a track record of building and scaling successful ventures, I bring a unique blend of technical expertise and strategic thinking to every project. 
+                    </p>
+                    <p class="about-text">
+                        My approach is always ROI-focused — I analyze opportunities, weigh the odds, and execute on the path that delivers maximum value. Whether it's architecting scalable systems, growing communities, or navigating complex business challenges, I combine analytical rigor with creative solutions to drive results.
+                    </p>
+                    <p class="about-text">
+                        Currently based in Southeast Asia, I'm passionate about leveraging emerging technologies like AI and Web3 to build innovative solutions that make a real impact.
+                    </p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
